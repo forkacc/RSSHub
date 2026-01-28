@@ -699,6 +699,8 @@ export type RoutePath =
   | `/daily/squads/:squads/:innerSharedContent?`
   | `/daily/upvoted/:period?/:innerSharedContent?/:dateSort?`
   | `/daily/user/:userId/:innerSharedContent?`
+  | `/dailypush/:sort?`
+  | `/dailypush/tag/:tag/:sort?`
   | `/damai/activity/:city/:category/:subcategory/:keyword?`
   | `/dangdang/notice/:type?`
   | `/daoxuan/`
@@ -1175,6 +1177,7 @@ export type RoutePath =
   | `/gov/gaozhou/*`
   | `/gov/guangdong/tqyb/sncsyjxh`
   | `/gov/guangdong/tqyb/tfxtq`
+  | `/gov/guizhou/jyt/tzgg`
   | `/gov/gz/:channel/:category`
   | `/gov/hainan/iitb/tzgg`
   | `/gov/hangzhou/zwfw`
@@ -1786,6 +1789,9 @@ export type RoutePath =
   | `/manhuagui/subscribe`
   | `/manus/blog`
   | `/manyvids/profile/vids/:uid`
+  | `/maoyan/box`
+  | `/maoyan/coming`
+  | `/maoyan/hot`
   | `/mashiro/:lang`
   | `/mastodon/account_id/:site/:account_id/statuses/:only_media?`
   | `/mastodon/acct/:acct/statuses/:only_media?`
@@ -2101,6 +2107,7 @@ export type RoutePath =
   | `/onehu/`
   | `/onet/news`
   | `/oo-software/changelog/:id`
+  | `/openai/chatgpt-atlas/release-notes`
   | `/openai/chatgpt/release-notes`
   | `/openai/cookbook`
   | `/openai/news`
@@ -3013,6 +3020,7 @@ export type RoutePath =
   | `/xinpianchang/:params?`
   | `/xinpianchang/discover/:params?`
   | `/xinpianchang/rank/:category?`
+  | `/xjtlu/news/:lang?/:category?`
   | `/xjtu/2yuan/news/:id?`
   | `/xjtu/dean/:subpath{.+}`
   | `/xjtu/dyyy/:path{.+}`
@@ -3186,4 +3194,19 @@ export type RoutePath =
   | `/zuvio/student5/boards`
   | `/zxcs/novel/:type`
   | `/zyshow*`
-  | `/zyw/hot/:site?`;
+  | `/zyw/hot/:site?`
+  | `/zzu/dwzzb/:type`
+  | `/zzu/dzb/:type`
+  | `/zzu/gs/:type`
+  | `/zzu/jwc/:type`
+  | `/zzu/kjc/:type`
+  | `/zzu/math/:type`
+  | `/zzu/news/:type`
+  | `/zzu/rsc/:type`
+  | `/zzu/ss/:type`
+  | `/zzu/student/:type`
+  | `/zzu/sxy/:type`
+  | `/zzu/tzhb/:type`
+  | `/zzu/xbx/:type`
+  | `/zzu/xuan/:type`
+  | `/zzu/zcycwb/:type`;

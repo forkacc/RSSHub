@@ -823,7 +823,8 @@
     "AiraNadih"
   ],
   "/baoyu/blog": [
-    "liyaozhong"
+    "liyaozhong",
+    "Circloud"
   ],
   "/baozimh/comic/:name": [
     "Fatpandac"
@@ -2102,6 +2103,12 @@
   ],
   "/daily/user/:userId/:innerSharedContent?": [
     "TonyRL"
+  ],
+  "/dailypush/:sort?": [
+    "TheGeeKing"
+  ],
+  "/dailypush/tag/:tag/:sort?": [
+    "TheGeeKing"
   ],
   "/damai/activity/:city/:category/:subcategory/:keyword?": [
     "hoilc",
@@ -3606,6 +3613,9 @@
   ],
   "/gov/guangdong/tqyb/tfxtq": [
     "Fatpandac"
+  ],
+  "/gov/guizhou/jyt/tzgg": [
+    "sheetung"
   ],
   "/gov/gz/:channel/:category": [],
   "/gov/hainan/iitb/tzgg": [
@@ -5431,6 +5441,15 @@
   "/manyvids/profile/vids/:uid": [
     "TonyRL"
   ],
+  "/maoyan/box": [
+    "JackyST0"
+  ],
+  "/maoyan/coming": [
+    "JackyST0"
+  ],
+  "/maoyan/hot": [
+    "JackyST0"
+  ],
   "/mashiro/:lang": [
     "MuenYu"
   ],
@@ -6422,6 +6441,9 @@
   ],
   "/oo-software/changelog/:id": [
     "nczitzk"
+  ],
+  "/openai/chatgpt-atlas/release-notes": [
+    "xbot"
   ],
   "/openai/chatgpt/release-notes": [],
   "/openai/cookbook": [
@@ -9270,6 +9292,9 @@
   "/xinpianchang/rank/:category?": [
     "nczitzk"
   ],
+  "/xjtlu/news/:lang?/:category?": [
+    "Circloud"
+  ],
   "/xjtu/2yuan/news/:id?": [
     "nczitzk"
   ],
@@ -9800,5 +9825,50 @@
   "/zyshow*": [],
   "/zyw/hot/:site?": [
     "nczitzk"
+  ],
+  "/zzu/dwzzb/:type": [
+    "amandus1990"
+  ],
+  "/zzu/dzb/:type": [
+    "amandus1990"
+  ],
+  "/zzu/gs/:type": [
+    "amandus1990"
+  ],
+  "/zzu/jwc/:type": [
+    "amandus1990"
+  ],
+  "/zzu/kjc/:type": [
+    "amandus1990"
+  ],
+  "/zzu/math/:type": [
+    "amandus1990"
+  ],
+  "/zzu/news/:type": [
+    "amandus1990"
+  ],
+  "/zzu/rsc/:type": [
+    "amandus1990"
+  ],
+  "/zzu/ss/:type": [
+    "amandus1990"
+  ],
+  "/zzu/student/:type": [
+    "amandus1990"
+  ],
+  "/zzu/sxy/:type": [
+    "amandus1990"
+  ],
+  "/zzu/tzhb/:type": [
+    "amandus1990"
+  ],
+  "/zzu/xbx/:type": [
+    "amandus1990"
+  ],
+  "/zzu/xuan/:type": [
+    "amandus1990"
+  ],
+  "/zzu/zcycwb/:type": [
+    "amandus1990"
   ]
 }
