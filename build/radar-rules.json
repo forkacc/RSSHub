@@ -4038,6 +4038,19 @@
       }
     ]
   },
+  "onlyfans.com": {
+    "_name": "OnlyFans",
+    ".": [
+      {
+        "title": "Creator Posts",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:username"
+        ],
+        "target": "/onlyfans/:username"
+      }
+    ]
+  },
   "openalex.org": {
     "_name": "OpenAlex",
     ".": [
@@ -38784,7 +38797,7 @@
     "apps": [
       {
         "title": "App reviews",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
           "/:handle"
         ],
@@ -38792,11 +38805,33 @@
       },
       {
         "title": "App store search",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
           "/search"
         ],
         "target": "/shopify(_params,url)=>{const searchParams=new URL(url).searchParams;if(!searchParams.has(\"q\")){return\"\"}return`/shopify/apps/search/${searchParams.get(\"q\")}`}"
+      }
+    ]
+  },
+  "shopify.engineering": {
+    "_name": "Shopify",
+    ".": [
+      {
+        "title": "Engineering",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/",
+          "/latest"
+        ],
+        "target": "/shopify/engineering"
+      },
+      {
+        "title": "Engineering",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/topics/:topic"
+        ],
+        "target": "/shopify/engineering/:topic"
       }
     ]
   },

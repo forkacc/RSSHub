@@ -2522,6 +2522,7 @@ export type RoutePath =
   | `/onejav/:type/:key?`
   | `/onenotegem/release`
   | `/onet/news`
+  | `/onlyfans/:username`
   | `/oo-software/changelog/:id`
   | `/openai/chatgpt-atlas/release-notes`
   | `/openai/chatgpt/release-notes`
@@ -2965,6 +2966,7 @@ export type RoutePath =
   | `/shopback/:store`
   | `/shopify/apps/:handle/reviews/:page?`
   | `/shopify/apps/search/:q`
+  | `/shopify/engineering/:topic?`
   | `/shoppingdesign/posts`
   | `/shou/www/:type`
   | `/showstart/artist/:id`
